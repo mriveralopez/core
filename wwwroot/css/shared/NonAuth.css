@@ -1,0 +1,32 @@
+h1 {
+    font-size: 2em;
+    margin-bottom: 0;
+  }
+h2 {
+    font-size: 5vmin;
+    margin-top: 0;
+    margin-bottom: 40px;
+    color: red;
+
+}
+main{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+
+nav, footer{
+    display: none !important;
+}
+.errormsm{
+    display: flex;
+    flex-direction: column;
+    width: 510px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 2rem;
+    margin-top: 50% auto;
+}
+body{
+    height: 100vh;
+}
